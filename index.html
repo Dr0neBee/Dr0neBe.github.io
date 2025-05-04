@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Disastrous Quiz of Saiki K!</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Pixelify+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <div id="main-container">
+    <h1 class="orbitron">The Disastrous Quiz of Saiki K!</h1>
+    <button id="start-button" class="pixelify">
+    <span>S</span><span>T</span><span>A</span><span>R</span><span>T</span>
+    </button>
+
+<!--Section 1-->
+<div id="quiz-section1" class="hidden">
+    <div class="quiz-header">Oh shoot! Nendou is here wanting to get ramen! What should I do? </div>
+    <button class="box1 pixelify">Point at a cloud</button>
+    <button class="box2 pixelify">Run in the opposite direction</button>
+    <button class="box3 pixelify">Get ramen with Nendou</button>
+    <button class="box4 pixelify">Teleport Away</button>
+    <div class="quiz-footer" id="footer1">
+        Remember! Saiki's objective is to go home and not stand out...
+        <button id="continue-button1" class="pixelify">
+ <span>C</span><span>O</span><span>N</span><span>T</span><span>I</span><span>N</span><span>U</span><span>E</span>
+        </button>
+      </div>
+      
+  </div>
+  
+
+  <!-- GIF TRANSITION SCREEN -->
+  <div id="gif-screen" class="hidden">
+    <img src="https://media1.tenor.com/m/NjoS_G5ms_QAAAAC/saiki-saiki-k.gif" alt="Funny Saiki K gif" class="saiki-gif" />
+  </div>
+
+<!-- SECTION 2 -->
+<div id="quiz-section2" class="hidden">
+    <div class="quiz-header">You pass by the convienience store! What do you buy? </div>
+    <button class="boxA pixelify">Coffee Jelly</button>
+    <button class="boxB pixelify">Vegetables</button>
+    <button class="boxC pixelify">Ramen for Nendou</button>
+    <button class="boxD pixelify">Chips from the Dark Reuinion </button>
+    <div class="quiz-footer">
+        Good Grief…
+      </div>
+      <button id="continue-button2" class="pixelify">
+        <span>C</span><span>O</span><span>N</span><span>T</span><span>I</span><span>N</span><span>U</span><span>E</span>
+      </button>      
+  </div>
+ <!-- SECTION 3 (FINAL) -->
+<div id="quiz-section3" class="hidden">
+  <div class="quiz-headefinal pixelify">Good Greif, finally I made it home... What should I have to eat? </div>
+
+  <button class="pixelify boxX">Ramen with nendou</button>
+  <button class="pixelify boxY">A sweet Pastry</button>
+  <button id="boxZ" class="pixelify">Coffee Jelly</button>
+
+  <!-- GIF for section 3 transition -->
+  <div id="gif-screen2" class="hidden">
+    <img src="https://i.pinimg.com/originals/47/5f/9d/475f9dbd0f9b178bfc2224ea9e78cafe.gif" alt="saiki-gif2" class="saiki-gif2" />
+  </div>
+
+  <div id="ending-result" style="text-align: center; margin-top: 30px;" class="hidden">
+        <p style="font-size: 1.2em; margin-top: 10px;">You got to enjoy coffee jelly in peace! Good job!</p>
+  </div>
+  </div>
+  
+</body>
+</html>
+
